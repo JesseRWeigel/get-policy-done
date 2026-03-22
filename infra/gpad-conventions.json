@@ -1,0 +1,26 @@
+{
+  "name": "gpad-conventions",
+  "description": "Policy analysis convention lock management",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "gpad.mcp.conventions_server",
+  "capabilities": [
+    "convention_set",
+    "convention_check",
+    "convention_diff",
+    "convention_list",
+    "convention_describe"
+  ],
+  "fields": [
+    "discount_rate",
+    "time_horizon",
+    "population_projections",
+    "baseline_scenario",
+    "geographic_scope",
+    "currency_price_year",
+    "elasticity_estimates",
+    "valuation_methodology",
+    "distributional_weighting",
+    "regulatory_framework"
+  ]
+}

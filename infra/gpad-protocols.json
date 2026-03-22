@@ -1,0 +1,40 @@
+{
+  "name": "gpad-protocols",
+  "description": "Policy analysis domain methodology protocols",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "gpad.mcp.protocols_server",
+  "capabilities": [
+    "get_protocol",
+    "route_protocol",
+    "list_protocols"
+  ],
+  "protocols": [
+    "cba-standard-federal",
+    "cba-quick-assessment",
+    "cba-ex-post-evaluation",
+    "cba-break-even",
+    "ria-full",
+    "ria-initial-regulatory-flexibility",
+    "ria-unfunded-mandates",
+    "stakeholder-mapping",
+    "distributional-analysis",
+    "environmental-justice",
+    "small-entity-analysis",
+    "paperwork-reduction",
+    "health-impact-assessment",
+    "environmental-impact-assessment",
+    "fiscal-impact-analysis",
+    "trade-impact-analysis",
+    "labor-market-analysis",
+    "energy-impact-analysis",
+    "microsimulation",
+    "computable-general-equilibrium",
+    "input-output-analysis",
+    "stated-preference-valuation",
+    "revealed-preference-valuation",
+    "benefit-transfer",
+    "meta-analysis",
+    "systematic-review"
+  ]
+}
