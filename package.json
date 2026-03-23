@@ -1,0 +1,26 @@
+{
+  "name": "get-policy-done",
+  "version": "0.1.0",
+  "description": "AI copilot for autonomous policy analysis and impact assessment",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JesseRWeigel/get-policy-done"
+  },
+  "bin": {
+    "get-policy-done": "bin/install.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "policy-analysis",
+    "impact-assessment",
+    "public-policy",
+    "ai",
+    "research",
+    "autonomous",
+    "claude-code",
+    "mcp"
+  ]
+}
